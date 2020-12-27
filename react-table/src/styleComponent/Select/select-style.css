@@ -1,0 +1,37 @@
+
+
+.select {
+}
+
+.select__choosed-elem {
+  cursor: pointer;
+  height: 100%;
+}
+
+.select__drop-down {
+  opacity: 0;
+}
+
+.select__drop-down_active {
+  opacity: 1;
+  border: 1px solid var(--warm-grey);
+  border-radius: 5px;
+  width: 100%;
+  margin: 10px 0 0 0;
+  padding: 0px 0 0px 3px;
+  background: var(--white);
+}
+
+.select__option {
+  padding: 4px 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.select__option:hover {
+  background: var(--placeholder-text);
+}
+
+.select__choosed-text {
+  margin: 0 0 0 6px;
+}

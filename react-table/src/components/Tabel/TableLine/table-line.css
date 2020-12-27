@@ -1,0 +1,11 @@
+.table-line {
+  cursor: pointer;
+  border: 1px solid var(--black);
+}
+
+.table-line-cell {
+  text-overflow: ellipsis;
+  font-size: 15px;
+  font-style: normal;
+  color: var(--warm-gray);
+}

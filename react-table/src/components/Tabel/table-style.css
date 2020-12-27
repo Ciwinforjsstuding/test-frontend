@@ -1,0 +1,17 @@
+.table {
+  border: 1px solid var(--warm-gary);
+  border-collapse: collapse;
+  width: 80%;
+  margin: 30px 0 0 0;
+}
+
+.header-cell {
+  height: 100%;
+  background: var(--bg-light-blue);
+  color: var(--table-text);
+  font-weight: bold;
+}
+
+.margin-right {
+  margin: 0 10px 0 0;
+}
