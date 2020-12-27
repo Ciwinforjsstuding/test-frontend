@@ -5,6 +5,8 @@ import arrowLeft from '../../icon/arrow-left-solid.svg';
 
 
 export const FormAddLineTable = ({ isOpen = false, formHandler, initialTabLeLine }) => {
+  //имена такие старнные потому select для посика возвращал ключи именно с такими именнами, то есть посик требовалось бы делать с ключами
+  // которые написанны таким образом, мне не хотелось лишний раз делать ifы поэтому сделал так
   const [ SELECTED_FIRSTNAME, setSELECTED_FIRSTNAME ] = useState("");
   const [ SELECTED_LASTNAME, setSELECTED_LASTNAME ] = useState("");
   const [ SELECTED_EMAIL, setSELECTED_EMAIL ] = useState("");

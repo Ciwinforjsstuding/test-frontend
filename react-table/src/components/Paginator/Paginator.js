@@ -11,7 +11,6 @@ export const Paginator = ({
   getCurrentPageInPagintor,
   howMuchShowPage = 5,
 }) => {
-  //странный баг с обрезанием потом пофикси
   let start = (currnetPageInPaginator - 1) * howMuchShowPage;
   let end = start + howMuchShowPage;
   const howMuchNeedPage = Math.ceil(tableLines.length /howMuchShowPage);

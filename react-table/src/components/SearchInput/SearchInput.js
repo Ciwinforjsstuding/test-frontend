@@ -29,7 +29,6 @@ export const SearchInput = ({ selectorHandler, getSerachText, searchText }) => {
   return (
     <header className="header-search flex justify-center items-center">
       <div className="header-search__wrapper flex items-center justify-around">
-        { /**/ }
         <Select
           arrOptions={options} 
           onHandlerSelect={selectorHandler}
